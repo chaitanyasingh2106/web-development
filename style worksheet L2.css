@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  flex-direction: row;           /* Default: 1 2 3 */
+  flex-direction: row-reverse;   /* 3 2 1 */
+  flex-direction: column;        /* 1, 2, 3 (stacked vertically) */
+  flex-direction: column-reverse;/* 3, 2, 1 (stacked vertically, reversed) */
+}
